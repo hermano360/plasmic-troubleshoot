@@ -1,0 +1,33 @@
+.BoxContainer__root__xxcbO {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #535353;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-overflow: clip;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: rgba(68, 192, 255, 0.2);
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.BoxContainer__root__xxcbO > .__wab_flex-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.BoxContainer__root__xxcbO > .__wab_flex-container > *,
+.BoxContainer__root__xxcbO > .__wab_flex-container > .__wab_slot > * {
+  margin-left: 10px;
+}

@@ -1,0 +1,80 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "pKf2ynt7Z23Yke58cAsgbA",
+      "projectName": "Scrabble",
+      "cssFilePath": "plasmic/scrabble/plasmic_scrabble.css",
+      "components": [
+        {
+          "id": "AJ3Q5ye7Jj",
+          "name": "Box",
+          "type": "managed",
+          "projectId": "pKf2ynt7Z23Yke58cAsgbA",
+          "renderModuleFilePath": "plasmic/scrabble/PlasmicBox.jsx",
+          "importSpec": {
+            "modulePath": "Box.jsx"
+          },
+          "cssFilePath": "plasmic/scrabble/PlasmicBox.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "_kNrS9s2q2U",
+          "name": "BasicBoard",
+          "type": "managed",
+          "projectId": "pKf2ynt7Z23Yke58cAsgbA",
+          "renderModuleFilePath": "plasmic/scrabble/PlasmicBasicBoard.jsx",
+          "importSpec": {
+            "modulePath": "BasicBoard.jsx"
+          },
+          "cssFilePath": "plasmic/scrabble/PlasmicBasicBoard.css",
+          "scheme": "blackbox"
+        },
+        {
+          "id": "gleJRcpqGK",
+          "name": "BoxContainer",
+          "type": "managed",
+          "projectId": "pKf2ynt7Z23Yke58cAsgbA",
+          "renderModuleFilePath": "plasmic/scrabble/PlasmicBoxContainer.jsx",
+          "importSpec": {
+            "modulePath": "BoxContainer.jsx"
+          },
+          "cssFilePath": "plasmic/scrabble/PlasmicBoxContainer.css",
+          "scheme": "blackbox"
+        }
+      ],
+      "icons": [
+        {
+          "id": "uxS33BGZ_",
+          "name": "StarsvgIcon",
+          "moduleFilePath": "plasmic/scrabble/PlasmicIcon__Starsvg.tsx"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "j42tMHNrGHwjL",
+        "name": "Screen",
+        "projectId": "pKf2ynt7Z23Yke58cAsgbA",
+        "contextFilePath": "plasmic/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.41"
+}
